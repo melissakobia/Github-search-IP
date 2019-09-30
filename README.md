@@ -1,6 +1,6 @@
-# Quotes
+# GithubSearch-IP
 
-This project enables a user to create quotes and have those quotes voted on whether they are terrible or are inspirational. It was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
+This is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. It was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 
 ## Author
 
@@ -11,21 +11,33 @@ This project enables a user to create quotes and have those quotes voted on whet
 
 As a user of the application you will be able to:
 
-1. Add a quote. 
-2. Delete a quote.
-3. Upvote a quote.
-4. Downvote a quote. 
+1. Search a user. 
+2. Retrieve repositories.
+3. View repositories on Github.
+4. View user details. 
 
 ## Behaviour Driven Development (BDD)
 |Behaviour 	           |    Input 	                 |       Output          |
 |----------------------------------------------|:-----------------------------------:|-----------------------------:|       
-|Page loads	                           |   User enters the quote through the form                            |       Displays the quote  |                        |
+|Page loads	                           |   User enters a username                             |       Displays user information and repositories  |                        |
 
 ### Installing
 
 *** To view the app.Visit ->  
 * Step 1:
-Clone this repo: git clone https://github.com/melissakobia/Quotes.git
+Clone this repo: git clone https://github.com/melissakobia/Github-search-IP.git
+
+* Step 2:
+The repo comes in a zipped or compressed format. Extract to your prefered location and open it.
+
+* Step 3:
+open your terminal and navigate to Github-search-IP.
+
+* Step 4:
+To run the website, you'll have to open the terminal and serve using the ng serve command..
+    
+
+
 
 ## Development server
 
