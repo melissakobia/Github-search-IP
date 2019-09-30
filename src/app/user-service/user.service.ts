@@ -27,5 +27,19 @@ export class UserService {
     return this.http.get("https://api.github.com/users/" + this.userName + "/repos?clientId=" + environment.clientId + "&clientSecret=" +environment.clientSecret);
   }
 
+  // getUserInfo() {
+  //   return this.http.get("https://api.github.com/repos/users/"+this.userName+"/issues?state=closed&access_token=945f965fc6d9c2c28798a70431e7dc37121d321f");
+  // }
+
+  // getRepoInfo(){
+  //   return this.http.get("https://api.github.com/repos/users/"+this.userName+"/repos/issues?state=closed&access_token=945f965fc6d9c2c28798a70431e7dc37121d321f");
+  // }
+
+  updateUser (userName : string) {
+    this.userName = userName;
+    
+
+  }
+
   
 }
